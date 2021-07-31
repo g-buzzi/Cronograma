@@ -78,7 +78,7 @@ div#class #classes tr.info {
 // ]]></script>
 </p>
 
-<div id="class" style="width: 600px; height: 200px;">
+<div id="class" style="width: 600px; height: 300px;">
 <table id="classes">
 <tbody>
 <tr class="title">

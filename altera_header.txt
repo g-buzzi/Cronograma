@@ -4,17 +4,12 @@
 
 var navbar_color = "rgba(59,49, 84, 1)";
 var line_color = "rgba(214, 173, 96, 0.6)";
-var title_color = "#FFD700";
-var background_color = "#000000"
-var titulo = "Buzzi"
+var title_color = "rgba(214, 173, 96, 1)";
+var titulo = "Título"
 
 document.getElementsByClassName("navbar-inner")[0].getElementsByTagName("H2")[0].innerHTML = titulo;
 
 document.head.insertAdjacentHTML("beforeend", `<style>
-
-    body{
-        background-color = ${background_color};
-    }     
 
     nav.navbar-inner{
     background-color: ${navbar_color};
