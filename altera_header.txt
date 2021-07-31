@@ -1,11 +1,13 @@
 <p>
 <script type="text/javascript">// <![CDATA[
 
-
-var navbar_color = "rgba(59,49, 84, 1)";
-var line_color = "rgba(214, 173, 96, 0.6)";
-var title_color = "rgba(214, 173, 96, 1)";
-var titulo = "Título"
+var background_color = "rgba(10, 10, 10, 0.8)";
+var text_color = "rgba(0,0,0,1)";
+var block_color = "rgba(40,40,40,1)";
+var navbar_color = "rgba(0,0, 0, 1)";
+var line_color = "rgba(200, 200, 200, 0.6)";
+var title_color = "rgba(200, 200, 200, 1)";
+var titulo = "Dark Mode";
 
 document.getElementsByClassName("navbar-inner")[0].getElementsByTagName("H2")[0].innerHTML = titulo;
 
@@ -20,10 +22,16 @@ document.head.insertAdjacentHTML("beforeend", `<style>
     color: ${title_color};
     }
         
-  
-        
-        
-            </style>
+    .block{
+     background-color: ${block_color};
+     }
+
+    body{
+    background-color: ${background_color};
+    color: ${text_color};
+    }
+    
+    </style>
         `)
 // ]]></script>
 </p>
