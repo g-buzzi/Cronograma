@@ -70,7 +70,7 @@ div#class td {
 }
 
 div#class #classes tr.info {
-    background-color: #4e68a2;
+    background-color: #404b85;
     font-weight: bold;
 } 
             </style>
@@ -78,7 +78,7 @@ div#class #classes tr.info {
 // ]]></script>
 </p>
 
-<div id="class" style="width: 600px; height: 300px;">
+<div id="class" style="width: 100%; height: 300px;">
 <table id="classes">
 <tbody>
 <tr class="title">
